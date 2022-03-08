@@ -1,0 +1,463 @@
+@media screen and (max-width: 780px) {
+ * {
+     margin: 0;
+     padding: 0;
+ }
+  
+    body,
+  html {
+    width: 100%;
+    background-color: rgba(39, 39, 39);
+    font-family: "Fredoka", sans-serif;
+  }
+
+  nav.horizontalNavigation ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+  }
+
+  nav.horizontalNavigation li {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0em;
+    border-bottom: #7a3d45 solid 5px;
+    background-color: white;
+  }
+
+  .nav {
+    text-decoration: none;
+    color: #fa324d;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  /* Imagens */
+
+  #gitBranco {
+    position: absolute;
+    margin-left: 70%;
+    width: 25%;
+    margin-bottom: 2%;
+  }
+
+  #gitBranco2 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 66%;
+    width: 30%;
+  }
+
+  #amanda {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .imgPortfolio {
+    width: 100%;
+  }
+
+  .imgPortfolio2 {
+    width: 100%;
+  }
+
+  #titulo {
+    margin-top: 2em;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  #nome {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  #curso {
+    font-family: "Roboto", sans-serif;
+    color: #7a3d45;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  #descricao {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 2em;
+  }
+
+  #prog {
+    color: white;
+  }
+
+  #botaoCurriculo {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 25%;
+  }
+
+  #curriculo {
+    color: rgba(39, 39, 39);
+    text-decoration: none;
+  }
+
+  .sobreMim {
+    color: white;
+    font-size: 20px;
+  }
+
+  #subtitulo {
+    color: white;
+    font-size: 20px;
+    margin-top: 2em;
+  }
+
+ .listaLi {
+     margin-left: 5em;
+    color: white;
+ }
+
+
+ #portfolioTitulo {
+    margin-top: 50px;
+    margin-bottom: 3em;
+     background-color: white;
+     color:black;
+     padding: 40px;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+
+ .descricaoPortfolio {
+     color: white;
+     font-size: 20px;
+ }
+
+ .github {
+     width: 30%;
+     text-align: center;
+ }
+
+.caixaPortfolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+
+}
+
+@media only screen and (min-width: 780px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: rgba(39, 39, 39);
+    font-family: "Fredoka", sans-serif;
+  }
+
+  nav.horizontalNavigation ul {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: end;
+    list-style: none;
+    margin-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: rgba(0, 0, 0, 0.3) solid 2px;
+  }
+
+  nav.horizontalNavigation li {
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding: 0.5em 0em;
+    margin-bottom: 0.8em;
+  }
+
+  .nav {
+    text-decoration: none;
+    color: #fa324d;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20em;
+    justify-content: center;
+    height: 55em;
+    background-color: white;
+  }
+
+  .text {
+    margin-left: 280px;
+  }
+
+  #titulo {
+    color: #fa324d;
+    font-weight: 900;
+    font-size: 22px;
+  }
+
+  #nome {
+    font-family: "Roboto", sans-serif;
+    color: rgba(39, 39, 39);
+    font-weight: 900;
+    font-size: 80px;
+  }
+
+  #curso {
+    font-family: "Roboto", sans-serif;
+    color: #7a3d45;
+    font-weight: 900;
+    font-size: 70px;
+  }
+
+  #descricao {
+    width: 650px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(39, 39, 39);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 2em;
+  }
+
+  #prog {
+    color: rgba(39, 39, 39);
+  }
+
+  #botaoCurriculo {
+    margin-left: 280px;
+    margin-top: 2em;
+    height: 50px;
+    width: 10%;
+    background-color: rgba(39, 39, 39);
+    border: solid 2px white;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  #curriculo {
+    color: white;
+  }
+
+  .flex2 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 55em;
+  }
+
+  #amanda {
+    border-radius: 5px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    filter: saturate(0);
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 2px solid white;
+  }
+
+  #amanda:hover {
+    filter: saturate(1);
+    animation: bounce 1s;
+    animation-fill-mode: forwards;
+  }
+
+  #fundoFoto {
+    border-radius: 5px;
+    width: 50%;
+    top: 115%;
+    border: 5px white solid;
+  }
+
+  .caixaImagem {
+    margin-top: 10em;
+    margin-left: 10em;
+    width: 50%;
+  }
+
+  .caixaImagem2 {
+    margin-top: 10em;
+    width: 70%;
+    margin-right: 20em;
+  }
+
+  .lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .listaLi {
+    width: 30%;
+    margin: 0;
+    padding: 10px 0 10px 30px;
+    background-image: url(../img/dot.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10px;
+    list-style: none;
+    color: rgb(187, 187, 187);
+    font-weight: 700;
+  }
+
+  .sobreMim {
+    color: rgb(187, 187, 187);
+    padding: 8px;
+  }
+
+  #traco {
+    width: 500px;
+    border-top: 2px solid rgb(187, 187, 187);
+  }
+
+  .titulo {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  #subtitulo {
+    color: rgb(187, 187, 187);
+  }
+
+  .flex3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 55em;
+  }
+
+  .caixaPg3 {
+    width: 100%;
+  }
+
+  #portfolioTitulo {
+    margin-top: 100px;
+    text-align: center;
+    color: #fa324d;
+    font-weight: 900;
+    font-size: 22px;
+  }
+
+  .imgPortfolio {
+    width: 50%;
+  }
+
+  .descricaoPortfolio {
+    width: 50%;
+  }
+
+  .caixaPortfolio {
+    width: 40%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 15px solid #fa324d;
+  }
+
+  .galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .imgPortfolio {
+    border-radius: 5px;
+    filter: saturate(0);
+  }
+
+  .imgPortfolio:hover {
+    filter: saturate(1);
+  }
+
+  .imgPortfolio2 {
+    width: 76%;
+    border-radius: 5px;
+    filter: saturate(0);
+  }
+
+  .imgPortfolio2:hover {
+    filter: saturate(1);
+  }
+
+  .descricaoPortfolio {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  footer {
+    margin-top: 100px;
+    padding: 70px;
+    background-color: rgba(187, 187, 187, 0.4);
+    color: white;
+    text-align: center;
+  }
+
+  .github {
+    width: 15%;
+    margin-top: 20px;
+  }
+
+  #linhaVertical {
+    height: 100px;
+    border-left: 3px solid white;
+    margin-left: 50px;
+    border-radius: 3px;
+  }
+
+  #gitBranco {
+    width: 5%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  #gitBranco2 {
+    width: 5%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(-24px, -5px);
+    }
+  }
+}

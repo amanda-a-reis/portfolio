@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Reis | Front-end</title>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <nav class="horizontalNavigation" id="barraNavegacao">
+        <ul>
+            <li ><a class="nav" id="nav1" onclick="mudaBotaoNav1()" href="#barraNavegacao">Home</a></li>
+            <li><a class="nav" id="nav2" onclick="mudaBotaoNav2()" href="#lista">Sobre mim</a></li>
+            <li><a class="nav" id="nav3" onclick="mudaBotaoNav3() "href="#tagCaixa">Portfolio</a></li>
+        </ul>
+    </nav>
+   
+
+    <div class="flex1">
+        <p class= "text" id="titulo">Olá, meu nome é</p>
+        <p class= "text" id="nome">Amanda Reis</p>
+        <p class= "text" id="curso">Sou estudante de <span id="prog">front-end</span>.</p>
+
+        <p class= "text" id="descricao">Sou estudante de programação do CTD pela escola argentina Digital House.
+            Meu foco, atualmente, é em desenvolvimento front-end.
+            Também tenho background em UX/UI Design.
+        </p>
+
+        <button id="botaoCurriculo"><a id="curriculo" href="./curriculo.pdf" target="_blank">Currículo</a></button>
+
+
+    </div>
+    <div id="lista">
+        <a href="https://github.com/amanda-a-reis" target="_blank"><img  id="gitBranco" src="./img/githubwhite.png"></a>
+        <a href="https://www.linkedin.com/in/amandaalvesreis/" target="_blank"><img  id="gitBranco2" src="./img/linkedin.png"></a>
+    </div>
+
+    <div class="flex2">
+
+        <div class="caixaImagem">
+        <div id="fundoFoto"><img id="amanda" src="./img/amanda_reis.jpg"></div>
+        </div>
+
+        <div class="caixaImagem2" >
+            <p class="titulo" id="titulo"> Sobre mim <div id="traco"></div></p>
+
+            <p class="sobreMim">Olá! Sou Amanda, estudante de programação apaixonada por artes!
+                Desde cedo tive contato com trabalhos artisticos através da minha família, que é artesã. 
+                Assim, decidi unir minha paixão pelas artes com a tecnologia e estudar design e front-end. 
+            </p>
+            <p class="sobreMim">
+                Tento sempre aplicar os princípios do design em meus projetos, unindo harmonia de cores,
+                espaço, ritmo e tipografia.
+            </p>
+                <p class="sobreMim">
+                Gosto muito de aprender, estou sempre estudando novos assuntos para me desenvolver.
+                Na programação, desafios matemáticos e lógicos também me despertam muito interesse.
+                Acredito que o pensamento computacional é útil para nos ajudar a resolver diversos tipos de problemas.
+            </p>
+                <p class="sobreMim">
+                Além disso, gosto de criar, de desenvolver coisas que sejam úteis mas ao mesmo tempo agradáveis ao olhar.
+                Um bom design vem acompanhado de empatia, de saber observar, construir e inovar.
+           </p>
+
+            <p id="subtitulo">Atualmente, as tecnologias e softwares que estudo são: </p><br>
+            <ul class="lista" >
+                <li class="listaLi">JavaScript</li>
+                <li class="listaLi">HTML</li>
+                <li class="listaLi">CSS</li>
+                <li class="listaLi">MySQL</li>
+                <li class="listaLi">Figma</li>
+                <li class="listaLi">AdobeXD</li>
+                <li class="listaLi">Photoshop</li>
+                <li class="listaLi">Illustrator</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="flex3" id="tagCaixa">
+      
+        <div class="caixaPg3">
+            <p id="portfolioTitulo">Portfolio</p>
+        </div>
+        <div class="galeria">
+        <div class="caixaPortfolio">
+            <a href="https://amanda-a-reis.github.io/qrcode-flexbox/" target="_blank"><img class="imgPortfolio" src="./img/qrcode.png"></a>
+            <p class="descricaoPortfolio">Projeto de QRCode feito baseado no layout fornecido pelo site de desafios de programação Front-end Mentor
+                Nesse projeto, utilizei conceitos de flexbox, border-radius, box-shadow, entre outros. 
+            </p>
+            <a href="https://github.com/amanda-a-reis/qrcode-flexbox" target="_blank"><img class="github" src="./img/github.png"></a>
+        </div>
+        <div class="caixaPortfolio">
+           <a href="https://amanda-a-reis.github.io/tip-calculator/" target="_blank"> <img class="imgPortfolio2" src="./img/calculatortip.png"> </a>
+            <p class="descricaoPortfolio">Essa é uma calculadora de gorjetas, feita com responsividade e muito JavaScript. Foi um projeto
+                divertido e desafiador, onde aprendi muitos conceitos de flexbox, sobre como apresentar resultados em tempo real e a lógica de botões interativos.
+            </p>
+            <a href="https://github.com/amanda-a-reis/tip-calculator" target="_blank"><img class="github" src="./img/github.png"></a>
+        </div>
+
+        <div class="caixaPortfolio" >
+            <a href="https://amanda-a-reis.github.io/calculadora-sistemas/" target="_blank"><img class="imgPortfolio2" src="./img/sistemas.png"></a>
+            <p class="descricaoPortfolio">Fiz essa calculadora para converter entre sistemas de numeração. Foi baseado em atividades de Intro. a Informática, do curso do CTD que estou cursando atualmente,
+                e para implementar a lógica por traz dos cálculos, utilizei JavaScript. A calculadora também é responsiva.
+            </p>
+            <a href="https://github.com/amanda-a-reis/calculadora-sistemas" target="_blank"><img class="github" src="./img/github.png"></a>
+        </div>
+
+        <div class="caixaPortfolio">
+            <a href="https://amanda-a-reis.github.io/vangogh-museu/" target="_blank"> <img class="imgPortfolio2" src="./img/vangogh.png"></a>
+            <p class="descricaoPortfolio">Esse é um site em homenagem ao Museu Van Gogh, que fica na Holanda. Foi um projeto bastante conceitual e modernista. Quis brincar com as formas,
+                com a dureza de formas quadradas em contraste com os traços arredondados de Van Gogh. Usei também um pouco de JQuery para animações e outros recursos animados.
+            </p>
+            <a href="https://github.com/amanda-a-reis/vangogh-museu" target="_blank"><img class="github" src="./img/github.png"></a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Criado por Amanda Alves Reis | Março de 2022</p>
+    </footer>
+
+    </div>
+    
+
+
+
+
+
+
+
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
